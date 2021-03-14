@@ -1,0 +1,34 @@
+.card-link{text-decoration:none;color:#000000;}
+
+.myaccordion {
+  box-shadow: none;
+}
+ 
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+ 
+.myaccordion .card,
+.myaccordion .card:last-child .card-footer {
+  border: none;
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #ffffff;
+  background: transparent;
+}
+
+.myaccordion a{
+	color:#000000;
+}
+
+.myaccordion a:hover{
+	color: #0074D9;
+	text-decoration: none;
+}
+
+.myaccordion .card-footer {
+  border-bottom-color: #ffffff;
+  background: transparent;
+}
