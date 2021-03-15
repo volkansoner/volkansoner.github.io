@@ -1,0 +1,331 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <script src="https://kit.fontawesome.com/589f919715.js"></script>
+    <link rel="stylesheet" href="css/academicons.min.css"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159652043-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-159652043-1');
+    </script>
+    <title>Arthur Delarue</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top" style="background-color: #a31f34">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="index.html">&nbsp;&nbsp;Arthur Delarue&nbsp;&nbsp;&nbsp;</a>
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </button>
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teaching.html">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="media.html">Press</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="files/cv.pdf">CV</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row" style="margin-top: 10%">
+      <!--   <div class="col-md-12">
+          <div class="alert alert-dark" role="alert">
+            Click paper title for more information!
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 3%"> -->
+        <div class="col-md-12">
+          <h3>Publications</h3>
+        </div>
+        <div id="accordion" role="tablist" aria-multiselectable="true" class="myaccordion">
+          <!-- Scheduling -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingScheduling">
+              <div class="mb-0">
+                <a data-toggle="collapse" href="#collapseScheduling" aria-expanded="true" aria-controls="collapseScheduling">
+                <b>Course Scheduling Under Sudden Scarcity: Applications to Pandemic Planning</b>
+                </a>
+                (with C. Barnhart, D. Bertsimas and J. Yan). Forthcoming in <i>Manufacturing & Service Operations Management</i> (2021).
+              </div>
+            </div>
+            <div id="collapseScheduling" class="collapse" role="tabpanel" aria-labelledby="headingScheduling" data-parent="#accordion">
+              <div class="card-body" style="margin-left: 2%">
+                <i> Abstract. </i> We propose a simple model for a class of problems that we call university course scheduling problems, which encompass several related problems from the operations research literature, including course timetabling and academic curriculum planning. Our two-stage framework draws parallels between these problems and proposes a single optimization-based solving approach that can flexibly accommodate problem specifics. We applied our methods to course scheduling at MIT in the midst of unprecedented challenges and drastic capacity reductions during the COVID-19 pandemic.  Our models were critical to measuring the impact of several innovative proposals, including expanding the academic calendar, teaching across multiple rooms, and rotating student attendance through the week and school year. We projected that if MIT moved from its usual two-semester calendar to a three-semester calendar, over 90% of students' courses could be satisfied on campus even with each student only on campus for two out of the three semesters. Crucially, this could be accomplished without increasing faculty workloads.  For the Sloan School of Management, we also produced a new schedule which was implemented in the Fall 2020 semester. The schedule adhered to safety guidelines while allowing for half of Sloan courses to include a socially-distanced in-person component, and affording over two thirds of Sloan students the opportunity for socially distanced in-person learning in at least half their classes, despite a fourfold reduction in classroom capacity.<br><br>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="files/course-scheduling.pdf" style="color:inherit">Preprint</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- COVID-19 -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingCovid">
+              <div class="mb-0">
+              <a data-toggle="collapse" href="#collapseCovid" aria-expanded="true" aria-controls="collapseCovid">
+              <b>From Predictions to Prescriptions: A Data-Driven Response to COVID-19</b>
+              </a>
+              (with D. Bertsimas et al.). Forthcoming in <i>Health Care Management Science</i> (2021). <br>
+              <p style="margin-left: 20px; margin-bottom: 0px">
+                <i class="fas fa-star"></i><i> William Pierskalla Best Paper (2020). </i>
+              </p>
+              </div>
+            </div>
+            <div id="collapseCovid" class="collapse" role="tabpanel" aria-labelledby="headingCovid" data-parent="#accordion">
+              <div class="card-body" style="margin-left: 2%">
+                <i> Abstract. </i> In the midst of the COVID-19 pandemic, healthcare providers and policy makers are wrestling with unprecedented challenges. How to treat COVID-19 patients with equipment shortages? How to allocate resources to combat the disease? How to plan for the next stages of the pandemic? We present a data-driven approach to tackle these challenges. We gather comprehensive data from various sources, including clinical studies, electronic medical records, and census reports. We develop algorithms to understand the disease, predict its mortality, forecast its spread, inform social distancing policies, and re-distribute critical equipment. These algorithms provide decision support tools that have been deployed on our publicly available website, and are actively used by hospitals, companies, and policy makers around the globe.<br><br>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="https://link.springer.com/article/10.1007/s10729-020-09542-0" style="color:inherit">Paper</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="https://www.medrxiv.org/content/10.1101/2020.06.26.20141127v1" style="color:inherit">Preprint</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Rl for CVRP -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingCVRP">
+              <div class="mb-0">
+              <a data-toggle="collapse" href="#collapseCVRP" aria-expanded="true" aria-controls="collapseCVRP">
+              <b>Reinforcement Learning with Combinatorial Actions: Application to Vehicle Routing</b>
+              </a>
+              (with R. Anderson and C. Tjandraatmadja). In <i>Advances in Neural Information Processing Systems</i> (NeurIPS 2020). <br>
+              </div>
+            </div>
+            <div id="collapseCVRP" class="collapse" role="tabpanel" aria-labelledby="headingCVRP" data-parent="#accordion">
+              <div class="card-body" style="margin-left: 2%">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <i> Abstract. </i> Value-function-based methods have long played an important role in reinforcement learning. However, finding the best next action given a value function of arbitrary complexity is nontrivial when the action space is too large for enumeration. We develop a framework for value-function-based deep reinforcement learning with a combinatorial action space, in which the action selection problem is explicitly formulated as a mixed-integer optimization problem. As a motivating example, we present an application of this framework to the capacitated vehicle routing problem (CVRP), a combinatorial optimization problem in which a set of locations must be covered by a single vehicle with limited capacity. On each instance, we model an action as the construction of a single route, and consider a deterministic policy which is improved through a simple policy iteration algorithm.  Our approach is competitive with other reinforcement learning methods and achieves an average gap of 1.7% with state-of-the-art OR methods on standard library instances of medium size. <br><br>
+                    <button type="button" class="btn btn-outline-primary btn-sm">
+                      <a href="https://arxiv.org/abs/2010.12001" style="color:inherit">Preprint</a>
+                    </button>
+                    <button type="button" class="btn btn-outline-primary btn-sm"> 
+                      <a href="https://studio.slideslive.com/web_recorder/share/20201021T184025Z__NeurIPS_posters__18073__reinforcement-learning-with-co?s=424216f5-ef5c-46ba-a6a7-fe482e293e82" style="color:inherit">Video</a>
+                    </button>
+                  </div>
+                  <div class="col-lg-4 pt-4 pt-lg-0">
+                    <img src="files/neurips-thumbnail.png" alt="travel-times-picture" width="100%">
+                  </div>
+                </div>
+                <!-- https://studio.slideslive.com/web_recorder/share/20201021T184025Z__NeurIPS_posters__18073__reinforcement-learning-with-co?s=424216f5-ef5c-46ba-a6a7-fe482e293e82 -->
+              </div>
+            </div>
+          </div>
+          <!-- IJAA BPS -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingEdelman">
+              <div class="mb-0">
+              <a data-toggle="collapse" href="#collapseEdelman" aria-expanded="true" aria-controls="collapseEdelman">
+              <b>Bus Routing Optimization Helps Boston Public Schools Design Better Policies</b>
+              </a>
+              (with D. Bertsimas, W. Eger, J. Hanlon, and S. Martin). <i>INFORMS Journal of Applied Analytics</i> 50(1):37-49 (2020). <br>
+              </div>
+            </div>
+            <div id="collapseEdelman" class="collapse" role="tabpanel" aria-labelledby="headingEdelman" data-parent="#accordion">
+              <div class="card-body" style="margin-left: 2%">
+                <i> Abstract. </i> In the winter of 2016, Boston Public Schools (BPS) launched a crowdsourcing national competition to create a better way to construct bus routes to improve efficiency, deepen the ability to model policy changes, and realign school start times. The winning team came from the Massachusetts Institute of Technology (MIT). They developed an algorithm to construct school bus routes, by assigning students to stops, combining stops into routes, and optimally assigning vehicles to routes. BPS has used this algorithm for two years running; in the summer of 2017, this led to a 7% reduction in the BPS bus fleet. Bus routing optimization also gives BPS the unprecedented ability to understand the financial impact of new policies that affect transportation. In particular, the MIT research team developed a new mathematical model to select start times for all schools in the district in a way that takes transportation into account. Using this methodology, BPS proposed a solution that would have saved an additional $12M annually, and shifted students to more developmentally appropriate school start times (by reducing the number of high school students starting before 8:00 a.m. from 74% to 6% and the average number of elementary school students dismissed after 4:00 pm from 33% to 15%). However, 85% of the schools’ start times would have been changed, with a median change of one hour. This magnitude of change was too dramatic for the district to absorb, as evidenced by strong vocal opposition from some of the school communities who were negatively affected, and the plan was not implemented.<br><br>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="https://pubsonline.informs.org/doi/10.1287/inte.2019.1015" style="color:inherit">Paper</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- PNAS BPS -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingBelltimes">
+              <div class="mb-0">
+              <a data-toggle="collapse" href="#collapseBelltimes" aria-expanded="true" aria-controls="collapseBelltimes">
+              <b>Optimizing Schools' Start Time and Bus Routes</b>
+              </a>
+              (with D. Bertsimas and S. Martin). <i> Proceedings of the National Academy of Sciences</i> 116(13): 5943-5948 (2019). <br>
+              <p style="margin-left: 20px; margin-bottom: 0px">
+              <i class="fas fa-star"></i><i> Franz Edelman Award Finalist (2019). </i> <br>
+              <i class="fas fa-star"></i><i> MIT ORC Best Student Paper (2018). </i> <br>
+              <i class="fas fa-star"></i><i> INFORMS Doing Good With Good OR Student Paper Competition Runner-up (2018). </i>
+              </p>
+              </div>
+            </div>
+            <div id="collapseBelltimes" class="collapse" role="tabpanel" aria-labelledby="headingBelltimes" data-parent="#accordion">
+              <div class="card-body" style="margin-left: 2%">
+                <i> Summary. </i> Spreading start times allows school districts to reduce transportation costs by reusing buses between schools. However, assigning each school a time involves both estimating the impact on transportation costs and reconciling additional competing objectives. These challenges force many school districts to make myopic decisions, leading to an expensive and inequitable status quo. For instance, most American teenagers start school before 8:00 AM, despite evidence of significant associated health issues. We propose an algorithm to jointly solve the school bus routing and bell time selection problems. Our application in Boston led to $5 million in yearly savings (maintaining service quality despite a 50-bus fleet reduction) and to the unanimous approval of the first school start time reform in 30 years.<br><br>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="https://www.pnas.org/cgi/doi/10.1073/pnas.1811462116" style="color:inherit">Paper</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="files/optimizing-school-start-times.pdf" style="color:inherit">PDF</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="files/school-buses-to-bell-times.pdf" style="color:inherit">Preprint</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="https://sinews.siam.org/Details-Page/a-school-bus-trip-to-the-crossroads-of-policy-and-optimization-1" style="color:inherit">Blog</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="https://github.com/mitschoolbus/SchoolBusRouting" style="color:inherit">Code</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- OR Travel Times -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingTravelTimes">
+              <div class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseTravelTimes" aria-expanded="false" aria-controls="collapseTravelTimes">
+              <b>Travel Time Estimation in the Age of Big Data</b>
+              </a>
+              (with D. Bertsimas, P. Jaillet, and S. Martin). <i> Operations Research</i> 67(2): 498-515 (2019).
+              </div>
+            </div>
+            <div id="collapseTravelTimes" class="collapse" role="tabpanel" aria-labelledby="headingTravelTimes" data-parent="#accordion">
+              <div class="card-body" style="margin-left: 2%">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <i> Summary. </i> Understanding complex city traffic patterns is a major priority for modern urban planners, leading to a sharp increase in the amount and the diversity of traffic data being collected. For instance, taxi companies in many major cities now record metadata for every individual car ride, such as its origin, destination, and travel time. In this paper, we show that we can leverage network optimization insights to extract accurate travel time estimations from such origin–destination data, using information from a large number of taxi trips to reconstruct the traffic patterns in an entire city. Using synthetic data, we establish the robustness of our algorithm to high variance data, and the interpretability of its results. We then use hundreds of thousands of taxi travel time observations in Manhattan to show that our algorithm can provide insights about urban traffic patterns on different scales and accurate travel time estimations throughout the network. <br><br>
+                    <button type="button" class="btn btn-outline-primary btn-sm"> 
+                      <a href="https://doi.org/10.1287/opre.2018.1784" style="color:inherit">Paper</a>
+                    </button>
+                    <button type="button" class="btn btn-outline-primary btn-sm"> 
+                      <a href="files/travel-time-estimation.pdf" style="color:inherit">Preprint</a>
+                    </button>
+                  </div>
+                  <div class="col-lg-4 pt-4 pt-lg-0">
+                    <img src="files/manhattan_zoom_1820.png" alt="travel-times-picture" width="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>                     
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" style="margin-top: 3%">
+        <div class="col-md-12">
+          <h3>Working Papers</h3>
+        </div>
+        <div id="accordionCompleted" role="tablist" aria-multiselectable="true" class="myaccordion">
+          <!-- ESY -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingESY">
+              <div class="mb-0">
+              <a data-toggle="collapse" href="#collapseESY" aria-expanded="true" aria-controls="collapseESY">
+              <b>Policy Analytics in Public School Operations</b>
+              </a>
+              (with D. Bertsimas). Major revision, <i>Operations Research</i> (2021).
+              </div>
+            </div>
+            <div id="collapseESY" class="collapse" role="tabpanel" aria-labelledby="headingESY" data-parent="#accordionCompleted">
+              <div class="card-body" style="margin-left: 2%">
+                <i> Abstract. </i> Getting students to the right school at the right time can pose a challenge for school districts in the United States, which must balance educational objectives with operational ones, often on a shoestring budget. Examples of such operational challenges include deciding which students should attend, how they should travel to school, and what time classes should start. From an optimizer’s perspective, these decision problems are difficult to solve in isolation, and present a formidable challenge to solve together. In this paper, we develop an optimization-based approach to three key problems in school operations: school assignment, school bus routing, and school start time selection. Our methodology is comprehensive, flexible enough to accommodate a variety of problem specifics, and relies on a tractable decomposition approach. In particular, it comprises a new algorithm for jointly scheduling school buses and selecting school start times, that leverages the simplifying assumption of fixed route arrival times to allow for multiple objectives and enhance tractability. We show that our methodology can significantly streamline the operations of Boston Public Schools Extended School Year (ESY) summer program for special education students. Using summer 2019 data, we find that replacing the actual student-to-school assignment with our method could lead to total cost savings of up to 8%. Our models can also be used to quantify the costs and benefits of particular operational policies, providing administrators with an analytics framework to evaluate potential decisions.<br><br>
+              </div>
+            </div>
+          </div>
+          <!-- Missing -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingMissingData">
+              <div class="mb-0">
+                <a data-toggle="collapse" href="#collapseMissing" aria-expanded="true" aria-controls="collapseMissing">
+                <b>Prediction with Missing Data</b>
+                </a>
+                (with D. Bertsimas and J. Pauphilet). Submitted (2021).
+              </div>
+            </div>
+            <div id="collapseMissing" class="collapse" role="tabpanel" aria-labelledby="headingMissing" data-parent="#accordionCompleted">
+              <div class="card-body" style="margin-left: 2%">
+                <i> Summary. </i> Missing information is inevitable in real-world data sets. While imputation is well-suited and theoretically sound for statistical inference, its relevance and practical implementation for out-of-sample prediction remains unsettled. We provide a theoretical analysis of widely used data imputation methods, including mode and mean imputation, and highlight their key deficiencies in making accurate predictions. Alternatively, we propose adaptive linear regression, a new class of models that can be directly trained and evaluated on partially observed data, adapting to the set of available features. <br><br>
+              </div>
+            </div>
+          </div>
+          <!-- Price of interpretability -->
+          <div class="card">
+            <div class="card-header" role="tab" id="headingInterpretability">
+              <div class="mb-0">
+                <a data-toggle="collapse" href="#collapseInterpretability" aria-expanded="true" aria-controls="collapseInterpretability">
+                <b>The Price of Interpretability</b>
+                </a>
+                (with D. Bertsimas, P. Jaillet and S. Martin). <br>
+                <p style="margin-left: 20px; margin-bottom: 0px">
+                  <i class="fas fa-star"></i><i> INFORMS Data Mining Section Best Student Paper Finalist (2019). </i>
+                </p>
+              </div>
+            </div>
+            <div id="collapseInterpretability" class="collapse" role="tabpanel" aria-labelledby="headingInterpretability" data-parent="#accordionCompleted">
+              <div class="card-body" style="margin-left: 2%">
+                <i> Abstract. </i> When quantitative models are used to support decision-making on complex and important topics, understanding a model's "reasoning" can increase trust in its predictions, expose hidden biases, or reduce vulnerability to adversarial attacks. However, the concept of interpretability remains loosely defined and application-specific. In this paper, we introduce a mathematical framework in which machine learning models are constructed in a sequence of interpretable steps. We show that for a variety of models, a natural choice of interpretable steps recovers standard interpretability proxies (e.g., sparsity in linear models). We then generalize these proxies to yield a parametrized family of consistent measures of model interpretability. This formal definition allows us to quantify the "price" of interpretability, i.e., the tradeoff with predictive accuracy. We demonstrate practical algorithms to apply our framework on real and synthetic datasets.<br><br>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="https://arxiv.org/abs/1907.03419" style="color:inherit">Preprint</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary btn-sm"> 
+                  <a href="https://arxiv.org/abs/1907.04669" style="color:inherit">Conference preprint</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" style="margin-top: 5%">
+        <div class="col-md-12">
+        <h3>Selected Talks</h3> <br>
+        <b>INFORMS</b> Data Mining and Decision Analytics Workshop, 2020. <i>Prediction with Missing Data.</i> <br>
+        <b>INFORMS</b> Annual Meeting, 2020. <i>From Assignment to Routing: Optimizing Public School Operations.</i><br>
+        <b>INFORMS</b> Annual Meeting, 2020. <i>Ventilator Allocation and Policy Evaluation.</i> <br>
+        <b>Kellogg-Wharton</b> OM Workshop, 2020. <i>Optimizing School Operations.</i><br>
+        <b>MIT LIDS</b> Student Conference, Cambridge, 2020. <i>The Price of Interpretability.</i><br>
+        <b>INFORMS</b> Annual Meeting, Seattle, 2019. <i>The Price of Interpretability.</i><br>
+        <b>INFORMS</b> Annual Meeting, Seattle, 2019. <i> From Transportation to Policy: Optimizing School Start Times and Bus Routes.</i><br>
+        <b>Center for Strategic and Budgetary Assessments</b> Data as a Resource Workshop, Washington, DC, 2019. <i>Analytics for Public Schools.</i><br>
+        <b>Google</b> Research Talk, Cambridge, MA, 2019. <i>Families Over Algorithms: Are We Better Off Using Optimization to Choose School Start Times and Bus Routes?</i><br>
+        <b>MIT LIDS</b> Student Conference, Cambridge, 2019. <i>Driving Policy with Optimization.</i> <br>
+        <p style="margin-left: 20px; margin-bottom: 0px">
+          <i class="fas fa-star"></i> <i>Runner-up, Best Student Presentation.</i> <br>
+        </p>
+        <b>INFORMS</b> Annual Meeting, Phoenix, 2018. <i>Finding Equitable Start Times for Boston Public Schools.</i> <br>
+        <b>MIT ORC</b> Fall Seminar Series, Cambridge, 2018. <i>Driving Policy with Optimization.</i> <br>
+        <b>ISMP</b> Triennial Meeting, Bordeaux, France, 2018. <i>Travel Time Estimation in the Age of Big Data.</i> <br>
+        <b>MIT ORC</b> Special Seminar on Operations Research for Social Good, Cambridge, 2018. <i>8 Months on a School Bus: Analytics for Public Policy.</i> <a class="card-link" href="https://www.youtube.com/watch?v=LFeeaNP_rbY"><i class="fas fa-video" aria-hidden="false"></i></a> <br>
+        <b>INFORMS</b> Annual Meeting, Houston, 2017. <i>Travel Time Estimation in the Age of Big Data.</i><br>
+        <br>
+        <br>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
