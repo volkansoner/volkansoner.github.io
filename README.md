@@ -1,7 +1,5 @@
-# volkansoner.github.io
-<h1 align="center">👋, Volkan Soner Özsoy</h1><br>
+<h1 align="center">Prof. Dr. (Assoc.) Volkan Soner Özsoy</h1><br>
 <h3 align="center">A code enthusiast and passionate software developer</h3><br>
-
 <h2 align="left">About</h2>
 <p align="left">- 🔭 Volkan Soner Özsoy is an Associate Professor in Department of Management Information Systems at the University of Aksaray. He earned his Ph.D. in Statistics (with a minor in Operations Research) from Gazi University in 2019 under the supervision of Professor Hasan Bal with the thesis entitled "Bootstrap Approach for Models of Dynamic Network Data Envelopment Analysis". He received his MSc. from Department of Statistics at (Gazi University)[https://gazi.edu.tr/] under the supervision of Professor İhsan Alp with the thesis entitled "New decision support system for performance analysis".</b></p>
 <p align="left">- His research mainly focuses on big data, machine learning, deep learning, bioinformatics, meta-heuristic, operations research, and performance analysis. His research has appeared in journals such as Expert Systems with Applications, Computational Statistics, European Journal of Public Health, and Applied Mathematics and Computation.</b></p>
