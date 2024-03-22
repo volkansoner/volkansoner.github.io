@@ -1,23 +1,22 @@
-<h1 align="center">Prof. Dr. (Assoc.) Volkan Soner Özsoy</h1>
-<h4 align="center">A code enthusiast and passionate software developer</h4>
-<h2 align="left">About</h2>
-<p align="left">- 🔭 Volkan Soner Özsoy is an Associate Professor in Department of Management Information Systems at the University of Aksaray. He earned his Ph.D. in Statistics (with a minor in Operations Research) from Gazi University in 2019 under the supervision of Professor Hasan Bal with the thesis entitled "Bootstrap Approach for Models of Dynamic Network Data Envelopment Analysis". He received his MSc. from Department of Statistics at (Gazi University)[https://gazi.edu.tr/] under the supervision of Professor İhsan Alp with the thesis entitled "New decision support system for performance analysis".</b></p>
-<p align="left">- His research mainly focuses on big data, machine learning, deep learning, bioinformatics, meta-heuristic, operations research, and performance analysis. His research has appeared in journals such as Expert Systems with Applications, Computational Statistics, European Journal of Public Health, and Applied Mathematics and Computation.</b></p>
-<p align="left">- 🌱 I’m currently learning <b>new things</b></p><br>
+#### Prof. Dr. (Assoc.) Volkan Soner Özsoy
 
-<h2 align="left">Languages and Tools:</h2>
-<p align="left"><img src="" />
+* 📕 I love learning and teaching operations research and machine learning.
+* ♥️ I am data science and Python Programming enthusiast.
+* 👓 I am interested in machine learning applications on optimization.
+* 📊 I am good at R, Python, and Matlab data visualizations.
+* 💻 I am a huge fan of Jupyter Notebook, nowadays.
 
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
-<a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/> </a> 
-<a href="https://www.r-project.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" width="40" height="40"/> </a>
-<a href="https://code.visualstudio.com/" target="_blank" title="Visual Studio Code"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="Visual Studio Code" width="40" height="40"></a>
-<a href="https://git-scm.com/" target="_blank" title="Git"><img src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" alt="Git" width="40" height="40"></a>
-</p><br>
+**Volkan Soner Özsoy** is an **Associate Professor** at the [Department of Management Information Systems](https://ybs.aksaray.edu.tr/) of the [College of Administrative Sciences and Economics](https://iibf.aksaray.edu.tr/?l=en) at [Aksaray University](https://www.aksaray.edu.tr/?l=en) in Aksaray, [Türkiye](https://www.un.org/en/about-us/member-states/turkiye).
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/volkansoner" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="volkansoner" height="40" width="40" /></a>
-</p><br>
+He earned his **Ph.D.** and **M.Sc.** degrees in [Operations Research of the Department of Statistics](http://istatistik.gazi.edu.tr/?language=en_US) from [Gazi University](https://gazi.edu.tr/) in Ankara, Türkiye, with the thesis entitled [_Bootstrap Approach for Models of Dynamic Network Data Envelopment Analysis_](https://dspace.gazi.edu.tr/handle/20.500.12602/215164), and [_New decision support system for performance analysis_](https://dspace.gazi.edu.tr/handle/20.500.12602/147299), respectively. 
 
-<p align="left"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=volkansoner&layout=compact" /></p>
+He got also his **BSc** degree in [Department of Computer Science](https://www.ktu.edu.tr/scs) (formerly Department of Statistics and Computer Science) at [Karadeniz Technical University](http://www.ktu.edu.tr/), Trabzon, Türkiye.
+
+His research mainly focuses on machine learning, operations research, meta-heuristic, multi-criteria decision making, data envelopment analysis and performance analysis.
+
+His research has appeared in journals such as [Annals of Operations Research](https://doi.org/10.1007/s10479-020-03827-x), [Expert Systems with Applications](https://doi.org/10.1016/j.eswa.2019.01.067), [Applied Mathematics and Computation](https://doi.org/10.1016/j.amc.2015.06.043), and [European Journal of Public Health](https://doi.org/10.1093/eurpub/ckz143).
+      
+You can access my detailed CV from [here](files/cv.pdf) and my Google Scholar page from [here](https://scholar.google.com.tr/citations?user=pUyRkGwAAAAJ&hl=tr&oi=sra).
+
+Please use the navigation for more information. If you would like to contact me, please do so via email at 📫 [volkansonerozsoy@gmail.com](mailto:volkansonerozsoy@gmail.com). Thanks for stopping by! 💬
+
