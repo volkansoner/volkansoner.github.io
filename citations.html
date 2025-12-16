@@ -61,6 +61,16 @@
 				<div id="accordion" role="tablist" aria-multiselectable="true" class="myaccordion">
 						<!------------------------------------------------------------------->
 					<div class="card">
+
+						<div id="collapseExper7"
+     class="collapse"
+     role="tabpanel"
+     aria-labelledby="headingExper7"
+     data-parent="#accordion"
+     data-include="collapseExper7.html">
+</div>
+
+						
 						<div class="card-header" role="tab" id="headingWind">
 							<div class="mb-0">
 								<b>1. </b>Koçak, E., <b>Özsoy, V.S.</b>, Örkcü, H. H. (2024). <b> 
@@ -1135,4 +1145,11 @@
 						</div>    
 					</div>
 	</body>
+					<script>
+document.querySelectorAll('[data-include]').forEach(el => {
+    fetch(el.getAttribute('data-include'))
+        .then(res => res.text())
+        .then(html => el.innerHTML = html);
+});
+</script>
 </html>
