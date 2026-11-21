@@ -1,22 +1,34 @@
-#### Prof. Dr. (Assoc.) Volkan Soner Özsoy
+# volkansoner.github.io
 
-* 📕 I love learning and teaching operations research and machine learning.
-* ♥️ I am data science and Python Programming enthusiast.
-* 👓 I am interested in machine learning applications on optimization.
-* 📊 I am good at R, Python, and Matlab data visualizations.
-* 💻 I am a huge fan of Jupyter Notebook, nowadays.
+Source of the academic website of Volkan Soner Özsoy, published with GitHub Pages at
+<https://volkansoner.github.io>. It is a plain static site (HTML, Bootstrap 4, jQuery) with no build step.
 
-**Volkan Soner Özsoy** is an **Associate Professor** at the [Department of Management Information Systems](https://ybs.aksaray.edu.tr/) of the [College of Administrative Sciences and Economics](https://iibf.aksaray.edu.tr/?l=en) at [Aksaray University](https://www.aksaray.edu.tr/?l=en) in Aksaray, [Türkiye](https://www.un.org/en/about-us/member-states/turkiye).
+## Structure
 
-He earned his **Ph.D.** and **M.Sc.** degrees in [Operations Research of the Department of Statistics](http://istatistik.gazi.edu.tr/?language=en_US) from [Gazi University](https://gazi.edu.tr/) in Ankara, Türkiye, with the thesis entitled [_Bootstrap Approach for Models of Dynamic Network Data Envelopment Analysis_](https://dspace.gazi.edu.tr/handle/20.500.12602/215164), and [_New decision support system for performance analysis_](https://dspace.gazi.edu.tr/handle/20.500.12602/147299), respectively. 
+| Path | Purpose |
+| --- | --- |
+| `index.html` | Home page |
+| `publications.html` | Journal articles (accordion with abstracts) |
+| `citations.html` | Works citing the publications; each "Cited by" list is loaded from `citations/*.html` |
+| `proceedings.html` | Conference proceedings |
+| `teaching.html` | Courses |
+| `citations/` | One HTML fragment per publication, fetched into `citations.html` with `fetch()` |
+| `css/`, `js/`, `fonts/` | Bootstrap 4.6.2, jQuery 3.7.1, Academicons and `custom.css` |
+| `files/` | CV and images |
+| `robots.txt`, `sitemap.xml` | Search engine hints |
 
-He got also his **BSc** degree in [Department of Computer Science](https://www.ktu.edu.tr/scs) (formerly Department of Statistics and Computer Science) at [Karadeniz Technical University](http://www.ktu.edu.tr/), Trabzon, Türkiye.
+## Editing
 
-His research mainly focuses on machine learning, operations research, meta-heuristic, multi-criteria decision making, data envelopment analysis and performance analysis.
+- The navigation bar is repeated in each page. If you add a page, copy the `<nav>` block and update the `active` item,
+  then add the page to `sitemap.xml`.
+- To add a citation list, create `citations/<Name>.html` containing an `<ol reversed>` of `<li>` entries, then add a
+  `<div id="collapse..." class="collapse" data-include="citations/<Name>.html">` in `citations.html`.
+- Preview locally with `python3 -m http.server` and open <http://localhost:8000>. Opening the files directly with
+  `file://` will not load the citation lists because browsers block `fetch()` there.
+- A GitHub Action (`.github/workflows/check-links.yml`) checks that local file references exist.
 
-His research has appeared in journals such as [Annals of Operations Research](https://doi.org/10.1007/s10479-020-03827-x), [Expert Systems with Applications](https://doi.org/10.1016/j.eswa.2019.01.067), [Applied Mathematics and Computation](https://doi.org/10.1016/j.amc.2015.06.043), and [European Journal of Public Health](https://doi.org/10.1093/eurpub/ckz143).
-      
-You can access my detailed CV from [here](files/cv.pdf) and my Google Scholar page from [here](https://scholar.google.com.tr/citations?user=pUyRkGwAAAAJ&hl=tr&oi=sra).
+## Third-party components
 
-Please use the navigation for more information. If you would like to contact me, please do so via email at 📫 [volkansonerozsoy@gmail.com](mailto:volkansonerozsoy@gmail.com). Thanks for stopping by! 💬
-
+Bootstrap (MIT), jQuery (MIT), [Academicons](https://jpswalsh.github.io/academicons/) (font: SIL OFL 1.1, CSS: MIT)
+and a Font Awesome kit loaded from its CDN. Their licenses apply to those files. The site content (texts, publication
+list, CV) is the author's own; no license is granted for reuse unless stated otherwise.
