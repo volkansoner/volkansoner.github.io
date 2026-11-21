@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://volkansoner.github.io/sitemap.xml

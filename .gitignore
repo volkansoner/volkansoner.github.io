@@ -1,0 +1,11 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Local Jekyll / Node tooling (if ever used)
+_site/
+.jekyll-cache/
+node_modules/

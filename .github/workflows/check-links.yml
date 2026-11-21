@@ -1,0 +1,18 @@
+name: Check local links
+
+# Catches typos in local file references (scripts, images, pages) before they go live.
+# External URLs are not checked here because publisher sites often block bots.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress --root-dir ${{ github.workspace }} ./*.html ./citations/*.html
+          fail: true
